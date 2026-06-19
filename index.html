@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand"  href="#">Cafétherian</a>
+
+            <!-- collapse = diminuir | target = ir para  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item "><a class="nav-link" href="#hero">Inicio</a> </li>
+                    <li class="nav-item "><a class="nav-link" href="#cardapio">Cardápio</a> </li>
+                    <li class="nav-item "><a class="nav-link" href="#sobre">Sobre</a> </li>
+                    <li class="nav-item "><a class="nav-link" href="#contato">Contato</a> </li>
+
+                </ul>
+            </div>
+
+        </div> 
+    </nav>
+
+    <section id="hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">O melhor café do mundo furry! !</h1>
+
+                <!-- mt-3 = margin top 3 -->
+            <p class="lead mt-3"> Grãos especiais de alta qualidade, colhido pelo nick do zootopia, ambiente selvagem, incrível e com muito sabor.</p>
+
+            <a href="#cadapio" class="btn btn-warning btn-lg mt3">Ver Cardápio</a>
+        </div>
+
+    </section>
+
+                                <!-- py = Padding para cima e para baixo -->
+    <section id="cardapio" class="py-5">
+
+        <div class="container">
+            <!-- mb4 = Margem 4 -->
+            <h2 class="text-center mb-4">Nosso cardápio</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                    <img class="card-img-top" alt="Expresso"
+                     src="https://cdn.sistemawbuy.com.br/arquivos/f101ef5b9be464a6c8854310ae5f5327/produtos/65bb164199b0d/5fc4fca2a8cea2deb2743064358f7bee-65bb21d8524e1.jpg">
+                     <h5 class="card-tittle">Espresso</h5>
+                     <p class="card-text">Legal, encorpado e aromático. <br>
+                        O clássico top da luz.
+                    </p>
+                    <span class="badge bg-warning text-dark">R$ 12,00</span>
+                </div>
+            </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100">
+
+                    <img class="card-img-top" alt="Expresso"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSgt5hiNYsP_ypx_SUxJQfDIDJE9QitdEm9zbGMhBTHA&s=10">
+                     <h5 class="card-tittle">Cappuccino asasino</h5>
+                     <p class="card-text">Cappu cappu cappuccino assassino! Assassini cappuccini!. <br>
+                        Questo killer furtivo si infiltra tra i nemici approfittando della notte. Attento, odiatore di caffè! Se non bevi una tazza di cappuccino al mattino, è meglio non incrociare questo tizio.
+                    </p>
+                    <span class="badge bg-warning text-dark">R$ 67,67</span>
+                </div>
+            </div>
+            
+                <div class="col-md-4">
+                    <div class="card h-100">
+
+                    <img class="card-img-top" alt="Expresso"
+                     src="https://preview.redd.it/qu%C3%A9-es-peor-ac%C3%A1-la-ia-o-el-therian-en-una-etiqueta-v0-suak6aapqdjg1.jpeg?auto=webp&s=042b6b84d9fd7a05924631ba02b6faeca18ae2b3">
+                     <h5 class="card-title">Suco orgânico</h5>
+                     <p class="card-text">Suco Orgânico de Therian! Feito com frutas frescas, ervas especiais e
+                        um toque da natureza. Refrescante, saudável e perfeito para quem quer liberar
+                        seus instintos e encarar o dia com energia.
+                    </p>
+                    </p>
+                    <span class="badge bg-warning text-dark">R$ 12,00</span>
+                </div>     
+            </div>          
+            </div>
+            
+
+                
+        </div>
+
+    </section>
+    
+    <section id="ambiente" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nosso ambiente</h2>
+            <div class="card h-100">
+
+                <img class="card-img-top" alt="Expresso"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFLKRDiixgGhqZbO6Ge1nrhcvgd8vJfqQHLWDgPx6TXg&s=10
+                 
+                 
+                 ">
+                 
+        </div>
+
+    </section>
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Fale Conosco!</h2>
+
+            <div class="row justfy-content-center">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label  class="form-label">Nome</label>
+                            <input class="form-control" placeholder="Digite seu Nome" type="text">
+                        </div>
+
+                        <div class="mb-3">
+                            <label  class="form-label">Email</label>
+                            <input class="form-control" placeholder="Digite seu Email" type="email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label  class="form-label">Mensagem</label>
+                            <textarea class="form-control" rows="4" placeholder="Escreva Aqui. . ."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark w-100">Enviar</button>
+
+                    </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-4 text-center">
+        <p class="mb-0">2026 Cafétherian - Feito pelo bootstrap</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
